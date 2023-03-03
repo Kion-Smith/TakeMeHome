@@ -1,0 +1,19 @@
+{
+    "name": "Take Me Home",
+    "version": "0.1.0",
+    "description": "Auto re-directs reddit wepages to old reddit page layout",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://*.reddit.com/*"],
+        "js": ["scripts/content.js"]
+      }
+    ],
+    "icons": {
+        "16": "assets/icon16.png",
+        "32": "assets/icon32.png",
+        "64": "assets/icon64.png",
+        "128": "assets/icon128.png"
+    }
+ 
+}
